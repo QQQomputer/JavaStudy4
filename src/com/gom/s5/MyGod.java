@@ -2,13 +2,15 @@ package com.gom.s5;
 
 public class MyGod {
 	
+	private static MyGod myGod;
 	
+	private MyGod() {}
 	
-	private MyGod() {
-		
-	}
-	public void makeGod() {
-		MyGod myGod = new MyGod();
+	public static MyGod makeGod() {		
+		if(myGod==null) {
+			myGod= new MyGod();
+					}		
+		return myGod;
 	}
 	
 }
