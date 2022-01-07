@@ -7,17 +7,46 @@ public class Member {
 	private double kg;
 	private double cm;
 	private int age;
-	
-	public void setAge(int age) {
-		this.age=20;
-		if(age>0 && age<200) {
-			this.age = age;			
-		}		
+	public String getName() {
+		return name;
 	}
-	
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public double getKg() {
+		return kg;
+	}
+	public void setKg(double kg) {
+		this.kg = kg;
+	}
+	public double getCm() {
+		return cm;
+	}
+	public void setCm(double cm) {
+		this.cm = cm;
+	}
 	public int getAge() {
-		return this.age;
+		return age;
 	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+
+	
+	//setter 메서드, getter 메서드
+	//set변수명
+	//setter
+	
+	
+	
+
 	
 	
 	
