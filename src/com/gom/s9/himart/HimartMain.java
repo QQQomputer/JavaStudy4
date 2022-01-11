@@ -1,8 +1,18 @@
 package com.gom.s9.himart;
 
+import com.gom.s8.rpg.*;
+
 public class HimartMain {
 
 	public static void main(String[] args) {
+		Magition magition;
+		Magition magition2;
+		Knight knight;
+		
+		
+		
+		com.gom.s9.himart.Magition magition3;
+		//Tv, Computer, Phone 정보 입력
 		
 		Computer cm = new Computer();
 		cm.company="Samsug";
@@ -28,7 +38,7 @@ public class HimartMain {
 		Client iu = new Client();
 		iu.money=1000;
 		iu.point=0;
-		iu.buy(ph);
+		iu.buy(tv);
 		
 		
 

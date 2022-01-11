@@ -8,6 +8,7 @@ public class Square {
 	public Square (){
 		this.GARO_SIZE=5;
 	}
+
 	
 	static {
 		Square.sero=3;

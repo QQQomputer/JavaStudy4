@@ -1,7 +1,7 @@
 package com.gom.s6.student;
 
 public abstract class StudentDTO {
-	
+	//data	transfer object
 	String name;
 	int num;
 	int kor;
